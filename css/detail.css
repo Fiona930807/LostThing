@@ -1,0 +1,128 @@
+html,body{
+    height:100%;
+    margin: 0;
+    background-color: rgba(187, 182, 182, 0.69);
+}
+
+*::selection{
+    background: none;
+}
+
+.pageThree{
+    margin-top: 0;
+    min-width: 400px;
+}
+
+.detailTitle{
+    height: 80px;
+    background-color: teal;
+    margin-top: 0;
+}
+.detailTitle ul{
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+}
+.detailTitle a{
+    color: ghostwhite;
+    text-align: center;
+    float: left;
+    text-decoration:none;
+    font-size: 30px;
+    padding: 15px 0;
+    width: 5%;
+}
+.titleName{
+    width: 95%;
+    color: white;
+    float: right;
+    text-align: center;
+    font-size: 26px;
+    padding: 18px 0;
+    letter-spacing: 14px;
+    text-shadow:  15px 10px 2px lightslategrey;
+}
+.detailInformation{
+    margin-top: 30px;
+}
+.detailInformation hr{
+    margin: 0px 40px;
+    text-align: center;
+}
+.lostThingList{
+    margin: 1px 40px;
+    background-color: ghostwhite;
+    padding: 6px 20px;
+    -moz-box-shadow: 0 2px 2px #333;
+    -webkit-box-shadow: 0 2px 2px #333;
+    box-shadow: 0 2px 2px #333;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 3px;
+}
+.lostThingList h2{
+    margin-bottom: 10px;
+}
+.lostThingStatus{
+    background-color: red;
+    color: floralwhite;
+    font-size: 12px;
+    font-style: normal;
+    padding: 2px 5px;
+    margin-left: 8px;
+}
+
+.lostThingPosition{
+    float: right;
+    font-size: 16px;
+}
+
+.lostThingDescription{
+    margin-bottom: 8px;
+}
+
+.image{
+    margin: 4px 0;
+}
+.image img{
+    height: 150px;
+    width: auto;
+    display: inline-block;
+}
+
+.connectorInformation{
+    margin: 1px 40px;
+    background-color: ghostwhite;
+    padding: 6px 20px;
+    -moz-box-shadow: 0 2px 2px #333;
+    -webkit-box-shadow: 0 2px 2px #333;
+    box-shadow: 0 2px 2px #333;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 3px;
+}
+
+.cname{
+    font-size: 16px;
+}
+.cname i{
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+.cphone{
+    font-size: 16px;
+}
+.cphone i{
+    margin-right: 8px;
+}
+.statusManage{
+    margin: 1px 40px;
+    background-color: ghostwhite;
+    padding: 6px 20px;
+    -moz-box-shadow: 0 2px 2px #333;
+    -webkit-box-shadow: 0 2px 2px #333;
+    box-shadow: 0 2px 2px #333;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 3px;
+}

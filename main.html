@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=dege,chrom=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>失物招领</title>
+    <link href="css/base.css" rel="stylesheet">
+    <link href="lib/Hui-iconfont_v1.0.8/1.0.8/iconfont.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div class="pageOne">
+    <div class="title">
+     <ul>
+         <h1>失物招领</h1>
+         <a href="submit.html"><i class="icon Hui-iconfont">&#xe642;</i></a>
+     </ul>
+    </div>
+    <div class="mainContent">
+        <div v-for="(item,index) in thingsList" v-bind:class="{'check':index == currentIndex}" @click="currentIndex=index">
+        <div class="lostThingList">
+                <h2>{{item.ThingsName}}<span class="lostThing">{{"(" + item.lostThings + ")"}} </span><span class="lostThingStatus">未找回</span><span class="lostThingPosition"><i class="icon Hui-iconfont">&#xe671;</i>{{item.lostPlace}}</span></h2>
+                <div class="lostThingDescription">{{item.description}}</div>
+                <div class="image">
+                    <img v-bind:src="item.image" alt="没有照片">
+                </div>
+                <div class="lostThingMore"><a href="details.html" @click="setDetails">查看详情</a><span class="lostThingTime">{{item.time}}</span></div>
+        </div>
+        </div>
+    </div>
+    <div>
+        <ul class="pagination">
+            <li><a href="#">«</a></li>
+            <li><a class="active" href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">»</a></li>
+        </ul>
+    </div>
+</div>
+<script src="js/lib/vue.min.js"></script>
+<script src="js/lib/vue-resource.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

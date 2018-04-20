@@ -1,0 +1,93 @@
+html,body{
+    height:100%;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+*::selection{
+    background: none;
+}
+
+.pageTwo{
+    min-width: 400px;
+}
+.submitContent hr{
+    width: 80%;
+    text-align: center;
+}
+.submitTitle{
+    height: 80px;
+    background-color: teal;
+    margin: auto;
+}
+.submitTitle ul{
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+}
+.submitTitle a{
+    color: ghostwhite;
+    text-align: center;
+    float: left;
+    text-decoration:none;
+    font-size: 30px;
+    padding: 15px 0;
+    width: 5%;
+}
+.titleName{
+    width: 95%;
+    color: navajowhite;
+    float: right;
+    text-align: center;
+    font-size: 24px;
+    padding: 17px 0;
+    text-shadow:  15px 10px 2px #6e7e99
+}
+
+
+.submitContent{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    background-color: white;
+}
+.choose{
+    margin: 8px 0;
+}
+.choose select{
+    width: 81%;
+    font-size: 16px;
+    padding: 10px 4px;
+    text-align: center;
+    margin-top: 40px;
+}
+.am-form-img span{
+    font-size: 16px;
+    margin-right: 20px;
+}
+.am-form-group{
+    margin: 8px 0;
+}
+
+.am-form-group input{
+    width: 80%;
+    padding: 10px 4px;
+    font-size: 16px;
+}
+
+.am-form-group textarea{
+    width: 80%;
+    padding: 6px 4px;
+    font-size: 16px;
+}
+
+.submitted button{
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    padding: 5px 8px 5px 14px;
+    letter-spacing: 6px;
+    text-align: center;
+    background-color: mediumseagreen;
+}
